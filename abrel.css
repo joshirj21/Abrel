@@ -1,0 +1,135 @@
+/* .d-flex{
+    height: 300px;
+} */
+body div{
+    transition: all 2s;
+}
+html,body{
+    /* height: 100%; */
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+.d-flex{
+position: absolute;
+height: 100%;    
+width: 100%;
+}
+.gif{
+    display: none;
+}
+/* .zin{
+    z-index: -1;
+} */
+/* h1{
+    z-index: 2;
+    position: relative;
+} */
+.bground{
+display:none;
+}
+.info{
+    display: none;
+}
+.bg{
+background: url("https://roelnie.com/abrel/img/top_block.jpg");
+/* position: center; */
+background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+height: 600px;
+/* width: 100%; */
+/* width: 1350px; */
+transition: all 2s;
+z-index: 1;
+display: block;
+position: relative;
+}
+.blur{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    height: 600px;
+}
+/* .bc{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    z-index: 2;
+} */
+
+/* h4{
+    font-weight: 800;
+    font-size: 34px;
+    color: linear-gradient(to right,#4E85A5, #50B582);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+} */
+.parallax{
+    /* display: inline-block; */
+    position:relative;
+    top: -450px;
+    z-index: 3;
+}
+img{
+    min-width: 107px;
+    min-height: 21px;
+    margin-bottom: 28px; 
+}
+img + h1{
+    font-size: 60px;
+    font-weight: 800px;
+    color: #ffffff;
+}
+p{
+    font-size: 18px;
+    font-weight: normal;    
+    color: rgba(255, 255, 255, 0.7)
+}
+.btnw{
+    width: 170px;
+    height: 50px;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 500;  
+    color: white;
+    /* transition: all 1s; */
+    outline: none;
+    border: none;
+}
+.btnc1{
+background: #4E85A5;
+}
+.btnch1{
+    color: white;
+    /* background: blue; */
+    background:linear-gradient(to right, #4E85A5, #50B582);
+    /* transition: all 1s; */
+}
+    
+.btnc2{
+background: #50B582;    
+}
+.btnch2{
+    color: white;
+    /* background: blue; */
+    background:linear-gradient(to right, #50B582, #4E85A5);
+    /* transition: all 1s; */
+}
+#demo{
+    position: relative;
+    top: -120px;
+    font-size: 30px;
+    font-weight: 800;
+    width: fit-content;
+    border-bottom: 2px solid #4F86A6;
+    margin: 0 auto;
+}
+.enlarge img{
+    width: 350px;
+    height: 178.5px;
+}
+.enlarge img:hover{
+    width: 370px;
+    height: 190px;
+    transition: all 1s;
+}
